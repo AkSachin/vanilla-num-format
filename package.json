@@ -1,5 +1,5 @@
 {
-  "name": "leetcode",
+  "name": "vanilla-num-format",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest --config ./vitest.config.ts --run --environment happy-dom"
+    "test": "vitest --config ./vitest.config.ts --run --environment happy-dom --reporter=junit --outputFile=output.xml"
   },
   "author": "",
   "license": "ISC",
