@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "vitest --config ./vitest.config.ts --run --environment happy-dom"
   },
   "author": "",
@@ -11,6 +14,7 @@
   "devDependencies": {
     "@testing-library/user-event": "^14.4.3",
     "happy-dom": "^9.20.3",
-    "vitest": "^0.32.2"
+    "vitest": "^0.32.2",
+    "vite": "^4.3.9"
   }
 }
