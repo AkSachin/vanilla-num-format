@@ -1,0 +1,16 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --config ./vitest.config.ts --run --environment happy-dom"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/user-event": "^14.4.3",
+    "happy-dom": "^9.20.3",
+    "vitest": "^0.32.2"
+  }
+}
